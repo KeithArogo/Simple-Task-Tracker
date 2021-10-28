@@ -1,0 +1,57 @@
+.container{
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.addedTasks{
+    border: 1px solid sienna;
+    position: absolute;
+    top: 5px;
+    height: 60%;
+    width: 90%;
+
+}
+
+.todocontainer{
+    position: absolute;
+    width: 90%;
+    bottom: 0px;
+    /* margin-top: 70%; */
+    height: 30%;
+    border: 1px solid blue;
+}
+
+.addtask{
+    border: 1px solid green;
+    height: 90%;
+    float: left;
+    width: 25%;
+
+}
+
+.taskdetails{
+    border: 1px solid yellow;
+    height: 90%;
+    width: 25%;
+    float: left;
+}
+
+.taskconfirmation{
+    border: 1px solid red;
+    height: 90%;
+    float: right;
+    width: 25%;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+#despara {
+    color: brown;
+}
+
+
